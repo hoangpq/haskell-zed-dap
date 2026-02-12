@@ -30,7 +30,7 @@ Create `.zed/debug.json` with:
 ```json
 [
   {
-    "adapter": "haskell-debug-adapter",
+    "adapter": "Haskell",
     "label": "Haskell debugger",
     "name": "Haskell debugger",
     "type": "ghc",
