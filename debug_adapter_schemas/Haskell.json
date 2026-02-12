@@ -1,0 +1,70 @@
+{
+  "required": [
+    "startup",
+    "stopOnEntry",
+    "ghciPrompt",
+    "ghciCmd",
+    "ghciEnv",
+    "logFile",
+    "logLevel",
+    "forceInspect"
+  ],
+  "properties": {
+    "type": {
+      "type": "string"
+    },
+    "startup": {
+      "type": "string"
+    },
+    "workspace": {
+      "type": "string"
+    },
+    "ghciCmd": {
+      "type": "string"
+    },
+    "ghciPrompt": {
+      "type": "string",
+      "default": "H>>= "
+    },
+    "ghciInitialPrompt": {
+      "type": "string",
+      "default": "> "
+    },
+    "logLevel": {
+      "type": "string"
+    },
+    "startupFunc": {
+      "type": "string",
+      "default": "main"
+    },
+    "forceInspect": {
+      "type": "boolean",
+      "default": false
+    },
+    "startupArgs": {
+      "type": "string",
+      "default": ""
+    },
+    "ghciEnv": {
+      "type": "object",
+      "default": {}
+    },
+    "stopOnEntry": {
+      "type": "boolean",
+      "default": true
+    },
+    "internalConsoleOptions": {
+      "type": "string",
+      "default": "openOnSessionStart"
+    },
+    "mainArgs": {
+      "type": "string",
+      "default": ""
+    },
+    "logFile": {
+      "type": "string",
+      "default": ""
+    }
+  },
+  "additionalProperties": true
+}

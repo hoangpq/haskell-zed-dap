@@ -1,0 +1,23 @@
+[
+  {
+    "adapter": "Haskell",
+    "label": "Haskell debugger",
+    "name": "Haskell debugger",
+    "type": "ghc",
+    "request": "launch",
+    "cwd": "$ZED_WORKTREE_ROOT",
+    "startup": "$ZED_WORKTREE_ROOT/app/Main.hs",
+    "workspace": "$ZED_WORKTREE_ROOT",
+    "logFile": "$ZED_WORKTREE_ROOT/.zed/haskell-debug.log",
+    "ghciCmd": "cabal repl <bin> -w ghci-dap --repl-no-load",
+    "logLevel": "INFO",
+    "startupFunc": "",
+    "startupArgs": "",
+    "stopOnEntry": false,
+    "mainArgs": "",
+    "ghciPrompt": "H>>= ",
+    "ghciInitialPrompt": "> ",
+    "ghciEnv": {},
+    "forceInspect": false
+  }
+]

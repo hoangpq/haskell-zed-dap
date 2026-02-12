@@ -1,0 +1,7 @@
+id = "haskell-zed-dap"
+name = "Haskell DAP"
+version = "0.0.1"
+schema_version = 1
+authors = ["Hoang Phan"]
+
+[debug_adapters.Haskell]
